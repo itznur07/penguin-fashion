@@ -22,9 +22,11 @@
   </head>
   <body>
     <!-- Header Section Start -->
-    <header class="container mx-auto">
+    <header class="container mx-auto bg-[#ddd] h-screen">
       <!-- navbar -->
-      <div class="flex items-center justify-between mx-24 py-8">
+      <div
+        class="flex items-center justify-between md:flex-row sm:flex-col mx-24 py-8"
+      >
         <div>
           <img class="w-64 cursor-pointer" src="/images/logo.png" alt="logo" />
         </div>
@@ -40,6 +42,27 @@
         </nav>
       </div>
       <!-- Banner -->
+      <div class="flex items-center justify-between mx-24 my-10">
+        <div class="space-y-5">
+          <h1 class="text-7xl font-bold leading-tight uppercase">
+            <span class="text-[#FABE4C]">Be the Penguins</span> <br />
+            of Winter
+          </h1>
+          <p class="text-md">
+            Lorem Ipsum is simply dummy text of the printing <br />
+            and typesetting industry.
+          </p>
+          <button
+            class="flex items-center gap-2 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-4 py-2 text-white rounded-sm"
+          >
+            <img class="w-5" src="/icons/shopping-cart 1.png" alt="img" /> Buy
+            now
+          </button>
+        </div>
+        <div>
+          <img src="/images/model.png" alt="model-img" />
+        </div>
+      </div>
     </header>
     <!-- Header Section End -->
 
